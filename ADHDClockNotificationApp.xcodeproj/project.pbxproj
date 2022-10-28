@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D89494D290BAFAC00483145 /* ADHDClockNotificationAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D89494C290BAFAC00483145 /* ADHDClockNotificationAppApp.swift */; };
+		5D89494F290BAFAC00483145 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D89494E290BAFAC00483145 /* ContentView.swift */; };
+		5D894951290BAFB200483145 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D894950290BAFB200483145 /* Assets.xcassets */; };
+		5D894954290BAFB200483145 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D894953290BAFB200483145 /* Preview Assets.xcassets */; };
+		5D89495E290BAFB300483145 /* ADHDClockNotificationAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D89495D290BAFB300483145 /* ADHDClockNotificationAppTests.swift */; };
+		5D894968290BAFB300483145 /* ADHDClockNotificationAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D894967290BAFB300483145 /* ADHDClockNotificationAppUITests.swift */; };
+		5D89496A290BAFB300483145 /* ADHDClockNotificationAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D894969290BAFB300483145 /* ADHDClockNotificationAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5D89495A290BAFB300483145 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D894941290BAFAC00483145 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D894948290BAFAC00483145;
+			remoteInfo = ADHDClockNotificationApp;
+		};
+		5D894964290BAFB300483145 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D894941290BAFAC00483145 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D894948290BAFAC00483145;
+			remoteInfo = ADHDClockNotificationApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5D894949290BAFAC00483145 /* ADHDClockNotificationApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ADHDClockNotificationApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D89494C290BAFAC00483145 /* ADHDClockNotificationAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADHDClockNotificationAppApp.swift; sourceTree = "<group>"; };
+		5D89494E290BAFAC00483145 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5D894950290BAFB200483145 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5D894953290BAFB200483145 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5D894959290BAFB300483145 /* ADHDClockNotificationAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ADHDClockNotificationAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D89495D290BAFB300483145 /* ADHDClockNotificationAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADHDClockNotificationAppTests.swift; sourceTree = "<group>"; };
+		5D894963290BAFB300483145 /* ADHDClockNotificationAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ADHDClockNotificationAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D894967290BAFB300483145 /* ADHDClockNotificationAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADHDClockNotificationAppUITests.swift; sourceTree = "<group>"; };
+		5D894969290BAFB300483145 /* ADHDClockNotificationAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADHDClockNotificationAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D894946290BAFAC00483145 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D894956290BAFB300483145 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D894960290BAFB300483145 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D894940290BAFAC00483145 = {
+			isa = PBXGroup;
+			children = (
+				5D89494B290BAFAC00483145 /* ADHDClockNotificationApp */,
+				5D89495C290BAFB300483145 /* ADHDClockNotificationAppTests */,
+				5D894966290BAFB300483145 /* ADHDClockNotificationAppUITests */,
+				5D89494A290BAFAC00483145 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5D89494A290BAFAC00483145 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D894949290BAFAC00483145 /* ADHDClockNotificationApp.app */,
+				5D894959290BAFB300483145 /* ADHDClockNotificationAppTests.xctest */,
+				5D894963290BAFB300483145 /* ADHDClockNotificationAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D89494B290BAFAC00483145 /* ADHDClockNotificationApp */ = {
+			isa = PBXGroup;
+			children = (
+				5D89494C290BAFAC00483145 /* ADHDClockNotificationAppApp.swift */,
+				5D89494E290BAFAC00483145 /* ContentView.swift */,
+				5D894950290BAFB200483145 /* Assets.xcassets */,
+				5D894952290BAFB200483145 /* Preview Content */,
+			);
+			path = ADHDClockNotificationApp;
+			sourceTree = "<group>";
+		};
+		5D894952290BAFB200483145 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5D894953290BAFB200483145 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5D89495C290BAFB300483145 /* ADHDClockNotificationAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				5D89495D290BAFB300483145 /* ADHDClockNotificationAppTests.swift */,
+			);
+			path = ADHDClockNotificationAppTests;
+			sourceTree = "<group>";
+		};
+		5D894966290BAFB300483145 /* ADHDClockNotificationAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5D894967290BAFB300483145 /* ADHDClockNotificationAppUITests.swift */,
+				5D894969290BAFB300483145 /* ADHDClockNotificationAppUITestsLaunchTests.swift */,
+			);
+			path = ADHDClockNotificationAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D894948290BAFAC00483145 /* ADHDClockNotificationApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D89496D290BAFB300483145 /* Build configuration list for PBXNativeTarget "ADHDClockNotificationApp" */;
+			buildPhases = (
+				5D894945290BAFAC00483145 /* Sources */,
+				5D894946290BAFAC00483145 /* Frameworks */,
+				5D894947290BAFAC00483145 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ADHDClockNotificationApp;
+			productName = ADHDClockNotificationApp;
+			productReference = 5D894949290BAFAC00483145 /* ADHDClockNotificationApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5D894958290BAFB300483145 /* ADHDClockNotificationAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D894970290BAFB300483145 /* Build configuration list for PBXNativeTarget "ADHDClockNotificationAppTests" */;
+			buildPhases = (
+				5D894955290BAFB300483145 /* Sources */,
+				5D894956290BAFB300483145 /* Frameworks */,
+				5D894957290BAFB300483145 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D89495B290BAFB300483145 /* PBXTargetDependency */,
+			);
+			name = ADHDClockNotificationAppTests;
+			productName = ADHDClockNotificationAppTests;
+			productReference = 5D894959290BAFB300483145 /* ADHDClockNotificationAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5D894962290BAFB300483145 /* ADHDClockNotificationAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D894973290BAFB300483145 /* Build configuration list for PBXNativeTarget "ADHDClockNotificationAppUITests" */;
+			buildPhases = (
+				5D89495F290BAFB300483145 /* Sources */,
+				5D894960290BAFB300483145 /* Frameworks */,
+				5D894961290BAFB300483145 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D894965290BAFB300483145 /* PBXTargetDependency */,
+			);
+			name = ADHDClockNotificationAppUITests;
+			productName = ADHDClockNotificationAppUITests;
+			productReference = 5D894963290BAFB300483145 /* ADHDClockNotificationAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D894941290BAFAC00483145 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					5D894948290BAFAC00483145 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					5D894958290BAFB300483145 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 5D894948290BAFAC00483145;
+					};
+					5D894962290BAFB300483145 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 5D894948290BAFAC00483145;
+					};
+				};
+			};
+			buildConfigurationList = 5D894944290BAFAC00483145 /* Build configuration list for PBXProject "ADHDClockNotificationApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5D894940290BAFAC00483145;
+			productRefGroup = 5D89494A290BAFAC00483145 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D894948290BAFAC00483145 /* ADHDClockNotificationApp */,
+				5D894958290BAFB300483145 /* ADHDClockNotificationAppTests */,
+				5D894962290BAFB300483145 /* ADHDClockNotificationAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D894947290BAFAC00483145 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D894954290BAFB200483145 /* Preview Assets.xcassets in Resources */,
+				5D894951290BAFB200483145 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D894957290BAFB300483145 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D894961290BAFB300483145 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D894945290BAFAC00483145 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D89494F290BAFAC00483145 /* ContentView.swift in Sources */,
+				5D89494D290BAFAC00483145 /* ADHDClockNotificationAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D894955290BAFB300483145 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D89495E290BAFB300483145 /* ADHDClockNotificationAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D89495F290BAFB300483145 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D894968290BAFB300483145 /* ADHDClockNotificationAppUITests.swift in Sources */,
+				5D89496A290BAFB300483145 /* ADHDClockNotificationAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5D89495B290BAFB300483145 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D894948290BAFAC00483145 /* ADHDClockNotificationApp */;
+			targetProxy = 5D89495A290BAFB300483145 /* PBXContainerItemProxy */;
+		};
+		5D894965290BAFB300483145 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D894948290BAFAC00483145 /* ADHDClockNotificationApp */;
+			targetProxy = 5D894964290BAFB300483145 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5D89496B290BAFB300483145 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5D89496C290BAFB300483145 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D89496E290BAFB300483145 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ADHDClockNotificationApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 3V6VBR765T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alexanderaspman.nu.ADHDClockNotificationApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5D89496F290BAFB300483145 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ADHDClockNotificationApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 3V6VBR765T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alexanderaspman.nu.ADHDClockNotificationApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5D894971290BAFB300483145 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3V6VBR765T;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alexanderaspman.nu.ADHDClockNotificationAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ADHDClockNotificationApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ADHDClockNotificationApp";
+			};
+			name = Debug;
+		};
+		5D894972290BAFB300483145 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3V6VBR765T;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alexanderaspman.nu.ADHDClockNotificationAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ADHDClockNotificationApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ADHDClockNotificationApp";
+			};
+			name = Release;
+		};
+		5D894974290BAFB300483145 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3V6VBR765T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alexanderaspman.nu.ADHDClockNotificationAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ADHDClockNotificationApp;
+			};
+			name = Debug;
+		};
+		5D894975290BAFB300483145 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3V6VBR765T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alexanderaspman.nu.ADHDClockNotificationAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ADHDClockNotificationApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D894944290BAFAC00483145 /* Build configuration list for PBXProject "ADHDClockNotificationApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D89496B290BAFB300483145 /* Debug */,
+				5D89496C290BAFB300483145 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D89496D290BAFB300483145 /* Build configuration list for PBXNativeTarget "ADHDClockNotificationApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D89496E290BAFB300483145 /* Debug */,
+				5D89496F290BAFB300483145 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D894970290BAFB300483145 /* Build configuration list for PBXNativeTarget "ADHDClockNotificationAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D894971290BAFB300483145 /* Debug */,
+				5D894972290BAFB300483145 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D894973290BAFB300483145 /* Build configuration list for PBXNativeTarget "ADHDClockNotificationAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D894974290BAFB300483145 /* Debug */,
+				5D894975290BAFB300483145 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5D894941290BAFAC00483145 /* Project object */;
+}
