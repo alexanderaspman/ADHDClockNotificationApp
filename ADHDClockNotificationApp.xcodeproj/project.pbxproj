@@ -14,6 +14,7 @@
 		5D89495E290BAFB300483145 /* ADHDClockNotificationAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D89495D290BAFB300483145 /* ADHDClockNotificationAppTests.swift */; };
 		5D894968290BAFB300483145 /* ADHDClockNotificationAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D894967290BAFB300483145 /* ADHDClockNotificationAppUITests.swift */; };
 		5D89496A290BAFB300483145 /* ADHDClockNotificationAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D894969290BAFB300483145 /* ADHDClockNotificationAppUITestsLaunchTests.swift */; };
+		5D894977290BB0C600483145 /* TimeLeftVisual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D894976290BB0C600483145 /* TimeLeftVisual.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		5D894963290BAFB300483145 /* ADHDClockNotificationAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ADHDClockNotificationAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D894967290BAFB300483145 /* ADHDClockNotificationAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADHDClockNotificationAppUITests.swift; sourceTree = "<group>"; };
 		5D894969290BAFB300483145 /* ADHDClockNotificationAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADHDClockNotificationAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5D894976290BB0C600483145 /* TimeLeftVisual.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLeftVisual.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				5D89494E290BAFAC00483145 /* ContentView.swift */,
 				5D894950290BAFB200483145 /* Assets.xcassets */,
 				5D894952290BAFB200483145 /* Preview Content */,
+				5D894976290BB0C600483145 /* TimeLeftVisual.swift */,
 			);
 			path = ADHDClockNotificationApp;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D894977290BB0C600483145 /* TimeLeftVisual.swift in Sources */,
 				5D89494F290BAFAC00483145 /* ContentView.swift in Sources */,
 				5D89494D290BAFAC00483145 /* ADHDClockNotificationAppApp.swift in Sources */,
 			);
