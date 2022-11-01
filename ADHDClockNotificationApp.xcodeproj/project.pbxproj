@@ -15,8 +15,12 @@
 		5D894968290BAFB300483145 /* ADHDClockNotificationAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D894967290BAFB300483145 /* ADHDClockNotificationAppUITests.swift */; };
 		5D89496A290BAFB300483145 /* ADHDClockNotificationAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D894969290BAFB300483145 /* ADHDClockNotificationAppUITestsLaunchTests.swift */; };
 		5D894977290BB0C600483145 /* TimeLeftVisual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D894976290BB0C600483145 /* TimeLeftVisual.swift */; };
+		5D8D59CD291098CD00985152 /* ClockControllerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8D59CC291098CD00985152 /* ClockControllerView.swift */; };
+		5D8D59CF2911665400985152 /* NoteList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8D59CE2911665300985152 /* NoteList.swift */; };
 		5DC8B1BE290C59E100B68375 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC8B1BD290C59E100B68375 /* SwiftUIView.swift */; };
 		5DC8B1C0290C727500B68375 /* ToggleFlashStrobeLightNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC8B1BF290C727400B68375 /* ToggleFlashStrobeLightNotification.swift */; };
+		5DC8B1C3290C7C4100B68375 /* CubeRotationAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC8B1C2290C7C4100B68375 /* CubeRotationAnimation.swift */; };
+		5DC8B1C5290C890E00B68375 /* RotatingCube.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC8B1C4290C890D00B68375 /* RotatingCube.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,8 +52,13 @@
 		5D894967290BAFB300483145 /* ADHDClockNotificationAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADHDClockNotificationAppUITests.swift; sourceTree = "<group>"; };
 		5D894969290BAFB300483145 /* ADHDClockNotificationAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADHDClockNotificationAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		5D894976290BB0C600483145 /* TimeLeftVisual.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLeftVisual.swift; sourceTree = "<group>"; };
+		5D8D59CC291098CD00985152 /* ClockControllerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockControllerView.swift; sourceTree = "<group>"; };
+		5D8D59CE2911665300985152 /* NoteList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteList.swift; sourceTree = "<group>"; };
 		5DC8B1BD290C59E100B68375 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		5DC8B1BF290C727400B68375 /* ToggleFlashStrobeLightNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleFlashStrobeLightNotification.swift; sourceTree = "<group>"; };
+		5DC8B1C1290C73BA00B68375 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		5DC8B1C2290C7C4100B68375 /* CubeRotationAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CubeRotationAnimation.swift; sourceTree = "<group>"; };
+		5DC8B1C4290C890D00B68375 /* RotatingCube.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatingCube.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +109,7 @@
 		5D89494B290BAFAC00483145 /* ADHDClockNotificationApp */ = {
 			isa = PBXGroup;
 			children = (
+				5DC8B1C1290C73BA00B68375 /* Info.plist */,
 				5DC8B1BC290C59C600B68375 /* View */,
 				5D89494C290BAFAC00483145 /* ADHDClockNotificationAppApp.swift */,
 				5D89494E290BAFAC00483145 /* ContentView.swift */,
@@ -107,6 +117,7 @@
 				5D894952290BAFB200483145 /* Preview Content */,
 				5D894976290BB0C600483145 /* TimeLeftVisual.swift */,
 				5DC8B1BF290C727400B68375 /* ToggleFlashStrobeLightNotification.swift */,
+				5D8D59CC291098CD00985152 /* ClockControllerView.swift */,
 			);
 			path = ADHDClockNotificationApp;
 			sourceTree = "<group>";
@@ -140,6 +151,9 @@
 			isa = PBXGroup;
 			children = (
 				5DC8B1BD290C59E100B68375 /* SwiftUIView.swift */,
+				5DC8B1C2290C7C4100B68375 /* CubeRotationAnimation.swift */,
+				5DC8B1C4290C890D00B68375 /* RotatingCube.swift */,
+				5D8D59CE2911665300985152 /* NoteList.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -276,9 +290,13 @@
 			files = (
 				5D894977290BB0C600483145 /* TimeLeftVisual.swift in Sources */,
 				5D89494F290BAFAC00483145 /* ContentView.swift in Sources */,
+				5D8D59CF2911665400985152 /* NoteList.swift in Sources */,
 				5DC8B1BE290C59E100B68375 /* SwiftUIView.swift in Sources */,
 				5DC8B1C0290C727500B68375 /* ToggleFlashStrobeLightNotification.swift in Sources */,
 				5D89494D290BAFAC00483145 /* ADHDClockNotificationAppApp.swift in Sources */,
+				5DC8B1C3290C7C4100B68375 /* CubeRotationAnimation.swift in Sources */,
+				5DC8B1C5290C890E00B68375 /* RotatingCube.swift in Sources */,
+				5D8D59CD291098CD00985152 /* ClockControllerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,6 +458,7 @@
 				DEVELOPMENT_TEAM = 3V6VBR765T;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ADHDClockNotificationApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -469,6 +488,7 @@
 				DEVELOPMENT_TEAM = 3V6VBR765T;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ADHDClockNotificationApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

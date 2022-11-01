@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct ContentView2: View {
    @State var minutesSelects: Int = 30
     var color1 = #colorLiteral(red: 1, green: 0.2963147204, blue: 0.3513806922, alpha: 0.8470588235)
     
@@ -89,7 +89,8 @@ struct BottomCardView : View{
                 }.bold().font(.title3)            }.padding(18).background(Color(color3)).foregroundColor(Color(.lightText)).frame(width: 286,height: 260).cornerRadius(50)
             
             Button(action: {}, label: {Text("Start clock").padding(15).cornerRadius(20)}).bold().font(.title).foregroundColor(Color(.darkText)).padding().cornerRadius(20)
-            
+        
+              
             }.frame(height:400,alignment: Alignment(horizontal: .center, vertical: .center)).background(Color(color3))}
     }
     
@@ -98,7 +99,7 @@ struct BottomCardView : View{
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        CardSelectTimeView()
+        ContentView(title: "", description: "")
         
         //ContentView(minutesSelects: 30)
     }

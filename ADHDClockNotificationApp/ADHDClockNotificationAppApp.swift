@@ -11,7 +11,7 @@ import SwiftUI
 struct ADHDClockNotificationAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(title: "", description: "5")
         }
     }
 }
