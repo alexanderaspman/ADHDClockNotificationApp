@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D64D5E92914770D0093CD8B /* AvatarUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D64D5E82914770D0093CD8B /* AvatarUserView.swift */; };
 		5D89494D290BAFAC00483145 /* ADHDClockNotificationAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D89494C290BAFAC00483145 /* ADHDClockNotificationAppApp.swift */; };
 		5D89494F290BAFAC00483145 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D89494E290BAFAC00483145 /* ContentView.swift */; };
 		5D894951290BAFB200483145 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D894950290BAFB200483145 /* Assets.xcassets */; };
@@ -17,6 +18,14 @@
 		5D894977290BB0C600483145 /* TimeLeftVisual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D894976290BB0C600483145 /* TimeLeftVisual.swift */; };
 		5D8D59CD291098CD00985152 /* ClockControllerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8D59CC291098CD00985152 /* ClockControllerView.swift */; };
 		5D8D59CF2911665400985152 /* NoteList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8D59CE2911665300985152 /* NoteList.swift */; };
+		5D8D59D1291185E600985152 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8D59D0291185E600985152 /* MenuView.swift */; };
+		5D8D59D32911A9A600985152 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8D59D22911A9A600985152 /* Home.swift */; };
+		5D8D59D52911AAC000985152 /* AccountAvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8D59D42911AAC000985152 /* AccountAvatarView.swift */; };
+		5DA3816A29198965002B99FF /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA3816929198965002B99FF /* SignUpView.swift */; };
+		5DA3816C2919A52A002B99FF /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA3816B2919A52A002B99FF /* LoginView.swift */; };
+		5DAD088D291C62C90085E189 /* AnimatedFontSyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAD088C291C62C90085E189 /* AnimatedFontSyles.swift */; };
+		5DAD088F291C67E60085E189 /* NotesVerticalScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAD088E291C67E60085E189 /* NotesVerticalScroll.swift */; };
+		5DAD0893291C73710085E189 /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAD0892291C73700085E189 /* NavigationBar.swift */; };
 		5DC8B1BE290C59E100B68375 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC8B1BD290C59E100B68375 /* SwiftUIView.swift */; };
 		5DC8B1C0290C727500B68375 /* ToggleFlashStrobeLightNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC8B1BF290C727400B68375 /* ToggleFlashStrobeLightNotification.swift */; };
 		5DC8B1C3290C7C4100B68375 /* CubeRotationAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC8B1C2290C7C4100B68375 /* CubeRotationAnimation.swift */; };
@@ -41,6 +50,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5D64D5E82914770D0093CD8B /* AvatarUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarUserView.swift; sourceTree = "<group>"; };
 		5D894949290BAFAC00483145 /* ADHDClockNotificationApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ADHDClockNotificationApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D89494C290BAFAC00483145 /* ADHDClockNotificationAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADHDClockNotificationAppApp.swift; sourceTree = "<group>"; };
 		5D89494E290BAFAC00483145 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,6 +64,14 @@
 		5D894976290BB0C600483145 /* TimeLeftVisual.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLeftVisual.swift; sourceTree = "<group>"; };
 		5D8D59CC291098CD00985152 /* ClockControllerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockControllerView.swift; sourceTree = "<group>"; };
 		5D8D59CE2911665300985152 /* NoteList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteList.swift; sourceTree = "<group>"; };
+		5D8D59D0291185E600985152 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		5D8D59D22911A9A600985152 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		5D8D59D42911AAC000985152 /* AccountAvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountAvatarView.swift; sourceTree = "<group>"; };
+		5DA3816929198965002B99FF /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		5DA3816B2919A52A002B99FF /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		5DAD088C291C62C90085E189 /* AnimatedFontSyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedFontSyles.swift; sourceTree = "<group>"; };
+		5DAD088E291C67E60085E189 /* NotesVerticalScroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesVerticalScroll.swift; sourceTree = "<group>"; };
+		5DAD0892291C73700085E189 /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
 		5DC8B1BD290C59E100B68375 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		5DC8B1BF290C727400B68375 /* ToggleFlashStrobeLightNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleFlashStrobeLightNotification.swift; sourceTree = "<group>"; };
 		5DC8B1C1290C73BA00B68375 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
@@ -109,6 +127,9 @@
 		5D89494B290BAFAC00483145 /* ADHDClockNotificationApp */ = {
 			isa = PBXGroup;
 			children = (
+				5DAD0891291C73530085E189 /* Navigation */,
+				5DAD0890291C68100085E189 /* Components */,
+				5DAD088B291C62950085E189 /* styles */,
 				5DC8B1C1290C73BA00B68375 /* Info.plist */,
 				5DC8B1BC290C59C600B68375 /* View */,
 				5D89494C290BAFAC00483145 /* ADHDClockNotificationAppApp.swift */,
@@ -147,6 +168,29 @@
 			path = ADHDClockNotificationAppUITests;
 			sourceTree = "<group>";
 		};
+		5DAD088B291C62950085E189 /* styles */ = {
+			isa = PBXGroup;
+			children = (
+				5DAD088C291C62C90085E189 /* AnimatedFontSyles.swift */,
+			);
+			path = styles;
+			sourceTree = "<group>";
+		};
+		5DAD0890291C68100085E189 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		5DAD0891291C73530085E189 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				5DAD0892291C73700085E189 /* NavigationBar.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
 		5DC8B1BC290C59C600B68375 /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -154,6 +198,13 @@
 				5DC8B1C2290C7C4100B68375 /* CubeRotationAnimation.swift */,
 				5DC8B1C4290C890D00B68375 /* RotatingCube.swift */,
 				5D8D59CE2911665300985152 /* NoteList.swift */,
+				5D8D59D0291185E600985152 /* MenuView.swift */,
+				5D8D59D22911A9A600985152 /* Home.swift */,
+				5D8D59D42911AAC000985152 /* AccountAvatarView.swift */,
+				5D64D5E82914770D0093CD8B /* AvatarUserView.swift */,
+				5DA3816929198965002B99FF /* SignUpView.swift */,
+				5DA3816B2919A52A002B99FF /* LoginView.swift */,
+				5DAD088E291C67E60085E189 /* NotesVerticalScroll.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -291,9 +342,18 @@
 				5D894977290BB0C600483145 /* TimeLeftVisual.swift in Sources */,
 				5D89494F290BAFAC00483145 /* ContentView.swift in Sources */,
 				5D8D59CF2911665400985152 /* NoteList.swift in Sources */,
+				5DA3816C2919A52A002B99FF /* LoginView.swift in Sources */,
+				5D8D59D32911A9A600985152 /* Home.swift in Sources */,
+				5DAD0893291C73710085E189 /* NavigationBar.swift in Sources */,
+				5DAD088F291C67E60085E189 /* NotesVerticalScroll.swift in Sources */,
 				5DC8B1BE290C59E100B68375 /* SwiftUIView.swift in Sources */,
+				5D8D59D52911AAC000985152 /* AccountAvatarView.swift in Sources */,
+				5D64D5E92914770D0093CD8B /* AvatarUserView.swift in Sources */,
 				5DC8B1C0290C727500B68375 /* ToggleFlashStrobeLightNotification.swift in Sources */,
+				5D8D59D1291185E600985152 /* MenuView.swift in Sources */,
 				5D89494D290BAFAC00483145 /* ADHDClockNotificationAppApp.swift in Sources */,
+				5DA3816A29198965002B99FF /* SignUpView.swift in Sources */,
+				5DAD088D291C62C90085E189 /* AnimatedFontSyles.swift in Sources */,
 				5DC8B1C3290C7C4100B68375 /* CubeRotationAnimation.swift in Sources */,
 				5DC8B1C5290C890E00B68375 /* RotatingCube.swift in Sources */,
 				5D8D59CD291098CD00985152 /* ClockControllerView.swift in Sources */,

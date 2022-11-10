@@ -19,7 +19,7 @@ struct TimeLeftVisual: View {
     var color5 = [#colorLiteral(red: 0.09236055057, green: 0.2719038442, blue: 0.527324638, alpha: 1), #colorLiteral(red: 0.1148044535, green: 0.3379773296, blue: 0.655466176, alpha: 1)]
     var width : CGFloat = 200
     var height : CGFloat = 200
-  var percent:CGFloat = 52
+  var percent:CGFloat = 22
   // var decimalProcent: Double
 
     @Binding var startShow : Bool
@@ -62,16 +62,15 @@ var body: some View {
         let remainingMinutes = (3600 * percent / 60 * 0.01)
         let multiplier = width/84
         let progress = 1 - ( percent/100)
-        return ZStack{
+        return ZStack(){
             
         VStack{
             
-            Circle().trim(from: progress, to: 1).stroke(Color(color3),style: StrokeStyle(lineWidth: 5*multiplier, lineCap: .round,lineJoin: .round, miterLimit: .infinity,dash: [0,20],dashPhase: 0)).rotationEffect(Angle(degrees: 274)).rotation3DEffect(Angle(degrees: 0), axis: (x:4,y:2,z:0))            .frame(height: height).position(x:200,y: 600)
-            
+            Circle().trim(from: progress, to: 1).stroke(Color(color3),style: StrokeStyle(lineWidth: 5*multiplier, lineCap: .round,lineJoin: .round, miterLimit: .infinity,dash: [0,20],dashPhase: 0)).rotationEffect(Angle(degrees: 274)).rotation3DEffect(Angle(degrees: 0), axis: (x:4,y:2,z:0))            .frame(height: height).position(x:200,y: 600).shadow(color:Color(color5[1]).opacity(0.98934),radius: 24)
             }
          
                 
-            Text("\(Int(remainingMinutes)) minutes left").foregroundColor(.white).bold().font(.title).frame(width:  170,height: 120 ).position(x:200,y: 600).shadow(color:Color(color5[1]).opacity(0.91934),radius: 30).onTapGesture {self.startShow.toggle()}}
+            Text("\(Int(remainingMinutes)) minutes left").padding(8) .background(.secondary).cornerRadius(10).foregroundColor(.white).bold().font(.system(size:29,design:.rounded)).frame(width:  170,height:200 ).position(x:200,y: 600).onTapGesture {self.startShow.toggle()}}
     }
     
 }

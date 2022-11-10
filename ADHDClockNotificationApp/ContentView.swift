@@ -97,11 +97,11 @@ struct BottomCardView : View{
 }
 
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView(title: "", description: "")
+//struct ContentView_Previews: PreviewProvider {
+  // static var previews: some View {
+
         
         //ContentView(minutesSelects: 30)
-    }
+   // }
     
-}
+//}
