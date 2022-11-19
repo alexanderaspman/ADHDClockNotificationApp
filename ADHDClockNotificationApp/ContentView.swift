@@ -6,9 +6,18 @@
 //
 
 import SwiftUI
+import Firebase
 
-struct ContentView2: View {
+struct ContentView: View {
+    @State private var email:String = "Email"
+    @State private var password:String = "Email"
+    @State var showCreateAccount : Bool
+
    @State var minutesSelects: Int = 30
+    @State private var edetingEmailTextField : Bool = false
+    @State private var edetingPasswordTextField : Bool = false
+        private let generator = UISelectionFeedbackGenerator()
+    
     var color1 = #colorLiteral(red: 1, green: 0.2963147204, blue: 0.3513806922, alpha: 0.8470588235)
     
     var color2 = #colorLiteral(red: 0.2745098174, green: 0.4862745106, blue: 0.1411764771, alpha: 1)
@@ -16,38 +25,26 @@ struct ContentView2: View {
     
     
     var color3 = #colorLiteral(red: 0.6707034111, green: 0.2758687735, blue: 0.2590719461, alpha: 1)
+    @State var switchCard: Bool
+  //  @State var loginINCreate : LoginSignAcount.self
+    
     
    // #colorLiteral(red: 0.6707034111, green: 0.2758687735, blue: 0.2590719461, alpha: 1)
     
-    
+
     //#colorLiteral(red: 0.1019607857, green: 0.2784313858, blue: 0.400000006, alpha: 1)
  //   #colorLiteral(red: 0.9126819372, green: 0.325309515, blue: 0.3447412252, alpha: 1)
-    var color4 = #colorLiteral(red: 1, green: 0.2705882353, blue: 0.2274509804, alpha: 1)   // #colorLiteral(red: 0.5807225108, green: 0.066734083, blue: 0, alpha: 1)
-    func body (body:any View)
-    {
-        let View = self.body.background(Color(color3)).onAppear()
-                    
-                  }
-                                 
-    var body: some View {
-       ZStack{
+    var body: some View{
         
-        VStack {
-            
-            Spacer()
-
-            
-          
-            
-        }.background(Color(color4)).padding(40)
-       }.safeAreaInset(edge:.top,alignment: .center,
-                    content: {
-           
-           
-       }).ignoresSafeArea().background(Color(color4))
+      //  ButtonCreateUser(showCreateAcount: false)
+        
+        SignUpView(email: $email,password: .constant(""), text: password, startAnimation: false, showCreateAccount: false)
+        
         
     }
-                                                           }
+    
+}
+                                                           
 
 
 
@@ -97,11 +94,10 @@ struct BottomCardView : View{
 }
 
 
-//struct ContentView_Previews: PreviewProvider {
-  // static var previews: some View {
-
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
         
-        //ContentView(minutesSelects: 30)
-   // }
-    
-//}
+        
+        ContentView(showCreateAccount:false, minutesSelects: 30, switchCard: false)
+    }
+}

@@ -34,7 +34,7 @@ struct UserData: View {
             VStack(spacing:16){
                
                 
-               
+                
                 HStack{
                     AccountAvatarView(  avatar: false)
                    .padding()

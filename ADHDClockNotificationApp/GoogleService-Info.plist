@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>599593217119-ll119uboh0bhndu9nmj3j8qc9cpenbjv.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.599593217119-ll119uboh0bhndu9nmj3j8qc9cpenbjv</string>
+	<key>API_KEY</key>
+	<string>AIzaSyA6o2HlJ8793L3iTgXUmQAo9d6uVz5GGsw</string>
+	<key>GCM_SENDER_ID</key>
+	<string>599593217119</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>alexanderaspman.nu.ADHDClockNotificationApp</string>
+	<key>PROJECT_ID</key>
+	<string>adhdclocknotificationapp</string>
+	<key>STORAGE_BUCKET</key>
+	<string>adhdclocknotificationapp.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:599593217119:ios:c1781610bb38645792bfea</string>
+</dict>
+</plist>
