@@ -8,8 +8,13 @@
 import SwiftUI
 
 struct Home: View {
+    @State var email:String
+    @State var loginInCreate : Bool
+   // @State  var loginView = LoginView(email: .constant("email"), password: .constant("password"), signInSuccesss: .constant(true), loginInCreate: loginInCreate, text: "")
+    @State var user:String = "fackdis"
+    @State var horizotVertical :Bool = true
     
-    
+    //@State var loginName=[String : [ Hashable.loginView.email]]
     
     
     
@@ -34,22 +39,19 @@ struct Home: View {
             
             
             VStack{
-                MenuView(title: text  ).offset(x:0,y:toggleOn ? 0: 30).onTapGesture {
-                    toggleOn.toggle()
-                    
-                }
+                
                 HStack{
                     
                     
-                //    Text("Notepad")
-                  //      .font(.system(
-                         //   size:27,weight:.bold)).padding(.top,260).padding(.horizontal,20)
+                    //    Text("Notepad")
+                    //      .font(.system(
+                    //   size:27,weight:.bold)).padding(.top,260).padding(.horizontal,20)
                     
-                 //   Spacer()
+                    //   Spacer()
                     
                     
-                 //   AccountAvatarView( avatar: avatar)
-                 //       .padding(.horizontal).padding(.top,260)
+                    //   AccountAvatarView( avatar: avatar)
+                    //       .padding(.horizontal).padding(.top,260)
                 }.onTapGesture{
                     toggleOn.toggle()
                     
@@ -57,37 +59,40 @@ struct Home: View {
                 
                 VStack(alignment: .center,spacing: 40) {
                     ScrollView(.horizontal){
+                        
+                        Spacer()
                         HStack(spacing:20){
                             ForEach(sectionData){item in
                                 
                                 Spacer()
-                                SectionView(section: item, text: item.text   ).padding(.top,100).onTapGesture {
-                                    self.toggleOn.toggle()
-                                    
-                                }
+                                SectionView(section: item, text: item.text   )//.padding(.top,0)
+                                //.onTapGesture {
+                                // self.toggleOn.toggle()
                                 
-                                
-                            }.shadow(radius: 15,x:0,y:20)
+                            }//.padding(.top,-10)
                             
-                        }.padding(.horizontal, 0).padding(.bottom)
+                            
+                        }.shadow(radius: 15,x:0,y:20)
                         
-                        
-                        
-                        
-                        
-                        
-                        
-                        Spacer()
-                        
-                    }
-                }.padding(.top, self.toggleOn ? 0 : -101).overlay(ZStack{
-                    Color.clear.background(.ultraThinMaterial)
-                        .blur(radius: 10)
+                    }.padding(.horizontal, 0).padding(.top,toggleOn ? -10 : 40)
                     
-                    Text("ScrollHorizontal").animatableFonts(size: 32, weight: .bold , design: .none).font(.largeTitle)
-                        .frame(maxWidth: .infinity, alignment: .leading).padding(.leading, 20).padding(.top,80)
-                }.frame(height:70)
-                    .frame(maxHeight:  .infinity, alignment: .top))
+                    
+                    
+                    
+                    
+                    
+                    
+                    Spacer()
+                    
+                }.padding(.bottom,300)
+            }.padding(.top, toggleOn ? -50 : -100).overlay(ZStack(alignment: .top){
+                Color.clear.background(.ultraThinMaterial)
+                    .blur(radius: 10)
+                    
+                    
+                    //.onTapGesture {
+                      //  toggleOn.toggle()
+                    //}
                 
                 
                 
@@ -97,15 +102,32 @@ struct Home: View {
                 
                 
                 
-            }.padding(.top,4)
-                .background(.white).clipShape(RoundedRectangle(cornerRadius: 30, style:.continuous)).shadow(color: Color.black.opacity(0.2) ,radius: 20, x: 0 , y: 20).offset(y: toggleOn ? -230 : 40).rotation3DEffect(Angle(degrees: toggleOn ? 0 : -10), axis: (x: 10.0, y: 0, z: 0)).scaleEffect(toggleOn ? 1:0.9).animation(.spring(response: 0.5, dampingFraction: 0.6,blendDuration: 0) , value: toggleOn)
-                .edgesIgnoringSafeArea(.all)
+                
+                
+            }
+                .background(.white).clipShape(RoundedRectangle(cornerRadius: 30, style:.continuous).offset(y: toggleOn ? 750 : -350)).shadow(color: Color.black.opacity(0.2) ,radius: 20, x: 0 , y: 20)).rotation3DEffect(Angle(degrees: toggleOn ? 0 : 10), axis: (x: 10.0, y: 0 , z: 0)).scaleEffect(toggleOn ? 1:0.9).animation(.spring(response: 0.5, dampingFraction: 0.6,blendDuration: 0) , value: toggleOn).overlay(content: {
+                    
+                    MenuView(title: text  ).offset(x:0,y:toggleOn ? -900: -210).rotation3DEffect(Angle(degrees: toggleOn ? 10 : 10), axis: (x: 10.0, y: 0 , z: 0)).animation(Animation.easeInOut(duration: 0.4).delay(0) ,value : toggleOn).onTapGesture(perform: {toggleOn.toggle()})})
+                .edgesIgnoringSafeArea(.all).ignoresSafeArea()
+            
+            if toggleOn == false {
+                //      VStack{
+                //        MenuView(title: text  ).offset(x:0,y:toggleOn ? 0: -600).animation(Animation.spring(response: 0.5).delay(1), value: toggleOn)
+                
+                
+                HStack{
+                    Text( "Menu").animatableFonts(size: 32, weight: .bold , design: .rounded)
+                        .frame(maxWidth: .infinity, alignment: .topLeading).padding(.leading, 20).padding(.top,-70)
+                        .offset(y: toggleOn ? -460 : -700).frame(height:70)
+                }}
             
             
         }
         
-        
+     
     }
+}
+    
     
     var RotationAnimationView:some View{
         @State var toggleOn:Bool = false
@@ -118,23 +140,25 @@ struct Home: View {
             
             HStack(spacing: 0){
                 
-                Rectangle().fill(Color(.red)).frame(width: toggleOn ? 100 : 117,height: 218,alignment: Alignment(horizontal: .center, vertical: .center)).rotation3DEffect(Angle(degrees:toggleOn ? 80: 70), axis: (x:toggleOn ? 1:1,y:toggleOn ? 4: 2,z:0)).rotationEffect(Angle(degrees:toggleOn ? 196 : 95), anchor:.bottom).position( x:toggleOn ? 123 : 109,y: toggleOn ? 220:208)                                  .animation(.easeIn(duration: 1.5), value:toggleOn)
+                Rectangle().fill(Color(.red)).frame(width: toggleOn ? 100 : 117,height: 218,alignment: Alignment(horizontal: .center, vertical: .bottom)).rotation3DEffect(Angle(degrees:toggleOn ? 80: 70), axis: (x:toggleOn ? 1:1,y:toggleOn ? 4: 2,z:0)).rotationEffect(Angle(degrees:toggleOn ? 196 : 95), anchor:.bottom).position( x:toggleOn ? 123 : 109,y: toggleOn ? 20:208)                                  .animation(.easeIn(duration: 1.5), value:toggleOn)//.padding(.top,300)
+                    .overlay(content: {
+                    Text("dsljkkldfhsdldjfk nldshflshflsd ldshflkhs").frame(width: .infinity,height: 80,alignment: .topLeading)})
                 // RectangleAnimation(toggleOn: $toggleOn).gesture(DragGesture().onChanged(value in
                 //self. setSTate))
                 
                 Text("Start animation")
             }
-        }.frame(width: .infinity, alignment: Alignment(horizontal: .leading, vertical: .bottom))
+        }.frame(width: .infinity, alignment: Alignment(horizontal: .leading, vertical: .bottom)).padding(.top)
     }
     
+
     
-    
-    struct Home_Previews: PreviewProvider {
-        static var previews: some View {
-            Home(text: "", avatar: false, toggleOn: true )
-        }
+struct Home_Previews: PreviewProvider {
+    static var previews: some View {
+        Home(email: "", loginInCreate: false, text: "", avatar: false, toggleOn: true )
+    //SectionView(section: Section(title: "", text: "", logo: "", ), text: ""))
     }
-    
+}
     struct SectionView: View {
         var section : Section
         @State var toggleOn:Bool = false
@@ -147,88 +171,105 @@ struct Home: View {
         var body: some View{
             ZStack {
                 
-                rectNGLEFALLDOR
                 
                 
-                
-                
-                
-                
-                
-              //  DragAblleText.foregroundColor(.black)
-                
-                
-             //   Text(section.text).padding().frame(width: .infinity)
-                
-              
-                
-                
-            }
+                VStack(alignment: .center,spacing: 40) {
+                    ScrollView(.horizontal){
+                        
+                        Spacer()
+                        HStack(spacing:20){
+                            ForEach(sectionData){item in
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                //  DragAblleText.foregroundColor(.black)
+                                
+                                HStack(alignment: .center,content:{   Text(section.text).padding().frame(maxWidth:  .infinity,maxHeight: 400,alignment: .center).foregroundColor(.black).background(.white).offset(x:-60,y:400)
+                                    
+                                    
+                                })
+                                rectNGLEFALLDOR
+                                
+                                
+                            }//.padding(.top,-10)
+                            
+                            
+                        }.shadow(radius: 15,x:0,y:20)
+                        
+                    }.padding(.horizontal, 0).padding(.top,toggleOn ? -10 : 40)
+                }}
         }
         
         var rectNGLEFALLDOR: some View {
-            return ZStack{
-                
-                
-                
+            
+            
+            return  VStack{
                 HStack(alignment:.top){
                     
-                    VStack{
-                        
-                        
-                        
-                        VStack(){
-                            
-                            
-                            
-                            
-                            
-                            Rectangle().fill(Color(fallTrap)).frame(width: toggleOn ? 150 : 147,height: toggleOn ? 268 : 37 ,alignment: Alignment(horizontal: .center, vertical: .center)).rotation3DEffect(Angle(degrees:toggleOn ? 130: 100), axis: (x:toggleOn ? 1:1,y:toggleOn ? 4: 4,z:0)).rotationEffect(Angle(degrees:toggleOn ? 196 : 50), anchor:.bottom).position( x:toggleOn ? 123 : 149,y: toggleOn ? 220:208)                                  .animation(.easeOut(duration: 1), value:toggleOn).position(x:-20,y:-30
-                            ).onTapGesture {
-                                
-                                
-                                self.avatar.toggle()
-                            }                                                                                                                       }}
-                    (
-                        section.image.position(x:140,y:100).onTapGesture {
-                            self.toggleOn.toggle()
-                        }
-                    )
-                    Image("#").aspectRatio(contentMode: .fit)
-                        .frame(width:220)
                     
-                } .shadow(radius: 20)
-                Text(section.title)
-                    .font(.system(size:24,weight:.bold))
-                    .frame(width: 160, alignment: .bottomLeading)
-                    .foregroundColor(Color(color)).padding(30).onTapGesture {
-                        self.toggleOn.toggle()
-                    }.position(x:130,y:120)
-                Text(section.text.uppercased()).frame(width: 165).offset(x: 0,y:  toggleOn ? 600 : -130 ).animation(Animation.easeOut(duration: 3), value: toggleOn)
+                    VStack(){
+                        
+                        
+                        
+                        
+                        
+                        Rectangle().fill(Color(fallTrap)).frame(width: toggleOn ? 150 : 147,height: toggleOn ? 268 : 37 ,alignment: Alignment(horizontal: .center, vertical: .center)).rotation3DEffect(Angle(degrees:toggleOn ? 130: 100), axis: (x:toggleOn ? 1:1,y:toggleOn ? 4: 4,z:0)).rotationEffect(Angle(degrees:toggleOn ? 196 : 50), anchor:.bottom).position( x:toggleOn ? 123 : 149,y: toggleOn ? 220:608)                                  .animation(.easeOut(duration: 1), value:toggleOn).position(x:-20,y:200
+                      ).onTapGesture {
+                            
+                            
+                            self.avatar.toggle()
+                        }                                                                                                                  }//.overlay(content:
+                                                                                                                                                        //Content(content:Content)  -> content={  return Text("titttlreeecdd")}
+                                                                                                                                                      
+                (
+                    section.image//.position(x:140,y:100)//   self.toggleOn.toggle()
+                //    }
+                )
+                Image("#").aspectRatio(contentMode: .fit)
+                    .frame(width:220)
                 
-                
-                
-                
-            } .frame(width:275,height:425,alignment:Alignment( horizontal: .leading, vertical: .top))
-                .background(section.color)
-                .cornerRadius(30)
-                .shadow(color: Color(color).opacity(0.2),radius:20,x:0,y:20)
+            } .shadow(radius: 20)
+            Text(section.title)
+                .font(.system(size:24,weight:.bold))
+                .frame(width: 160, alignment: .bottomLeading)
+                .foregroundColor(Color(color)).padding(30).onTapGesture {
+                    self.toggleOn.toggle()
+                }.position(x:130,y:220)
+            Text(section.text.uppercased()).frame(width: 165).offset(x: 0,y:  toggleOn ? -200 : 330 ).animation(Animation.easeOut(duration: 3), value: toggleOn)
             
             
             
             
+        }.frame(width:275,height:425,alignment:Alignment( horizontal: .leading, vertical: .top))
+            .background(section.color)
+           
+            .cornerRadius(30)
+            .shadow(color: Color(color).opacity(0.2),radius:20,x:0,y:20)
+        //    .offset(y:500)
+        
+          
+    }
             
             
             
-        }
+            
+        
         var DragAblleText:some View {
             
             VStack(content:{
                 
-                Text(section.text).offset(x:30,y: toggleOn ? -400 : 90).multilineTextAlignment ( .center).font(.subheadline).lineSpacing(4.0).padding(20).background(.white).cornerRadius(30).shadow(radius: 20)
+              //  Text(section.text).offset(x:30,y: toggleOn ? -400 : 90).multilineTextAlignment ( .center).font(.subheadline).lineSpacing(4.0).padding(20).background(.white).cornerRadius(30).shadow(radius: 20)
                 
                 
-            })}
+            }
+            
+            
+            )}
         
         
         
@@ -250,14 +291,14 @@ struct Home: View {
         
         
         
-    }}
+    }
 
 struct Section:Identifiable{
     var id = UUID()
     var title : String
     var text : String
-    var logo : String
-    var image:Image
+    var logo : String?
+    var image:Image?
     var color : Color
     
 }

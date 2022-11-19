@@ -7,7 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D0CE962292316640015D35A /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0CE961292316630015D35A /* TabBar.swift */; };
+		5D0F2BB4291F664E00543B3A /* Mega Man II_ Dr. Wily's Stage 1 Sheet Music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5D0F2BB3291F664D00543B3A /* Mega Man II_ Dr. Wily's Stage 1 Sheet Music.mp3 */; };
+		5D0F2BB6291F678200543B3A /* TimerSoundModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0F2BB5291F678200543B3A /* TimerSoundModifier.swift */; };
+		5D170AB429296D0800286051 /* AccountAuthenticationModificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D170AB329296D0800286051 /* AccountAuthenticationModificationViewController.swift */; };
+		5D170AB729296D0800286051 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D170AB529296D0800286051 /* MainInterface.storyboard */; };
+		5D170ABB29296D0800286051 /* alexanderaspman.nu.ADHDClockNotificationApp.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 5D170AAE29296D0500286051 /* alexanderaspman.nu.ADHDClockNotificationApp.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5D52AB9729297E10007CFECE /* AuthenticationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D170AB029296D0600286051 /* AuthenticationServices.framework */; };
+		5D52ABA2292984BF007CFECE /* CryptoTokenKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D52ABA1292984BF007CFECE /* CryptoTokenKit.framework */; };
+		5D52ABA5292984BF007CFECE /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D52ABA4292984BF007CFECE /* Token.swift */; };
+		5D52ABA7292984BF007CFECE /* TokenDriver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D52ABA6292984BF007CFECE /* TokenDriver.swift */; };
+		5D52ABA9292984BF007CFECE /* TokenSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D52ABA8292984BF007CFECE /* TokenSession.swift */; };
+		5D52ABAD292984BF007CFECE /* github.tokens.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 5D52ABA0292984BE007CFECE /* github.tokens.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		5D64D5E92914770D0093CD8B /* AvatarUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D64D5E82914770D0093CD8B /* AvatarUserView.swift */; };
+		5D67F3E229260A81004C14E1 /* AddTaskRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D67F3E129260A81004C14E1 /* AddTaskRow.swift */; };
+		5D67F3E42926825B004C14E1 /* taskToCloudManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D67F3E32926825B004C14E1 /* taskToCloudManager.swift */; };
+		5D67F3E729287DE7004C14E1 /* FirebaseLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D67F3E629287DE7004C14E1 /* FirebaseLogin.swift */; };
 		5D89494D290BAFAC00483145 /* ADHDClockNotificationAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D89494C290BAFAC00483145 /* ADHDClockNotificationAppApp.swift */; };
 		5D89494F290BAFAC00483145 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D89494E290BAFAC00483145 /* ContentView.swift */; };
 		5D894951290BAFB200483145 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D894950290BAFB200483145 /* Assets.xcassets */; };
@@ -26,13 +41,37 @@
 		5DAD088D291C62C90085E189 /* AnimatedFontSyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAD088C291C62C90085E189 /* AnimatedFontSyles.swift */; };
 		5DAD088F291C67E60085E189 /* NotesVerticalScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAD088E291C67E60085E189 /* NotesVerticalScroll.swift */; };
 		5DAD0893291C73710085E189 /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAD0892291C73700085E189 /* NavigationBar.swift */; };
+		5DB24E8A291E0353004B7A8A /* signIntoAppleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB24E89291E0353004B7A8A /* signIntoAppleButton.swift */; };
+		5DB24E8D291E8653004B7A8A /* TaskRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB24E8C291E8653004B7A8A /* TaskRow.swift */; };
+		5DB24E8F291E91C2004B7A8A /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB24E8E291E91C2004B7A8A /* TaskView.swift */; };
+		5DB63939291DC8AD006F0AA2 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 5DB63938291DC8AD006F0AA2 /* FirebaseAuth */; };
+		5DB6393B291DC8AD006F0AA2 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 5DB6393A291DC8AD006F0AA2 /* FirebaseDatabase */; };
+		5DB6393D291DC8AD006F0AA2 /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 5DB6393C291DC8AD006F0AA2 /* FirebaseDatabaseSwift */; };
+		5DB6393F291DC8AD006F0AA2 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 5DB6393E291DC8AD006F0AA2 /* FirebaseFirestore */; };
+		5DB63941291DC8AD006F0AA2 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 5DB63940291DC8AD006F0AA2 /* FirebaseFirestoreSwift */; };
+		5DB63943291DCB03006F0AA2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5DB63942291DCB03006F0AA2 /* GoogleService-Info.plist */; };
 		5DC8B1BE290C59E100B68375 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC8B1BD290C59E100B68375 /* SwiftUIView.swift */; };
 		5DC8B1C0290C727500B68375 /* ToggleFlashStrobeLightNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC8B1BF290C727400B68375 /* ToggleFlashStrobeLightNotification.swift */; };
 		5DC8B1C3290C7C4100B68375 /* CubeRotationAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC8B1C2290C7C4100B68375 /* CubeRotationAnimation.swift */; };
 		5DC8B1C5290C890E00B68375 /* RotatingCube.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC8B1C4290C890D00B68375 /* RotatingCube.swift */; };
+		5DE5CBAF29289EF400A0C65F /* MultipleColorButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE5CBAE29289EF400A0C65F /* MultipleColorButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		5D170AB929296D0800286051 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D894941290BAFAC00483145 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D170AAD29296D0500286051;
+			remoteInfo = alexanderaspman.nu.ADHDClockNotificationApp;
+		};
+		5D52ABAB292984BF007CFECE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D894941290BAFAC00483145 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D52AB9F292984BE007CFECE;
+			remoteInfo = github.tokens;
+		};
 		5D89495A290BAFB300483145 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5D894941290BAFAC00483145 /* Project object */;
@@ -49,8 +88,41 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		5D170ABC29296D0900286051 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				5D52ABAD292984BF007CFECE /* github.tokens.appex in Embed Foundation Extensions */,
+				5D170ABB29296D0800286051 /* alexanderaspman.nu.ADHDClockNotificationApp.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		5D0CE961292316630015D35A /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		5D0F2BB3291F664D00543B3A /* Mega Man II_ Dr. Wily's Stage 1 Sheet Music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Mega Man II_ Dr. Wily's Stage 1 Sheet Music.mp3"; sourceTree = "<group>"; };
+		5D0F2BB5291F678200543B3A /* TimerSoundModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerSoundModifier.swift; sourceTree = "<group>"; };
+		5D170AAE29296D0500286051 /* alexanderaspman.nu.ADHDClockNotificationApp.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = alexanderaspman.nu.ADHDClockNotificationApp.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D170AB029296D0600286051 /* AuthenticationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AuthenticationServices.framework; path = System/Library/Frameworks/AuthenticationServices.framework; sourceTree = SDKROOT; };
+		5D170AB329296D0800286051 /* AccountAuthenticationModificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountAuthenticationModificationViewController.swift; sourceTree = "<group>"; };
+		5D170AB629296D0800286051 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		5D170AB829296D0800286051 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D52AB9B29298449007CFECE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file; name = Base; path = alexanderaspman.nu.ADHDClockNotificationApp/Base.lproj/alexander.developerprofile; sourceTree = "<group>"; };
+		5D52ABA0292984BE007CFECE /* github.tokens.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = github.tokens.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D52ABA1292984BF007CFECE /* CryptoTokenKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CryptoTokenKit.framework; path = System/Library/Frameworks/CryptoTokenKit.framework; sourceTree = SDKROOT; };
+		5D52ABA4292984BF007CFECE /* Token.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Token.swift; sourceTree = "<group>"; };
+		5D52ABA6292984BF007CFECE /* TokenDriver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenDriver.swift; sourceTree = "<group>"; };
+		5D52ABA8292984BF007CFECE /* TokenSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenSession.swift; sourceTree = "<group>"; };
+		5D52ABAA292984BF007CFECE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5D64D5E82914770D0093CD8B /* AvatarUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarUserView.swift; sourceTree = "<group>"; };
+		5D67F3E129260A81004C14E1 /* AddTaskRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskRow.swift; sourceTree = "<group>"; };
+		5D67F3E32926825B004C14E1 /* taskToCloudManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = taskToCloudManager.swift; sourceTree = "<group>"; };
+		5D67F3E629287DE7004C14E1 /* FirebaseLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseLogin.swift; sourceTree = "<group>"; };
 		5D894949290BAFAC00483145 /* ADHDClockNotificationApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ADHDClockNotificationApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D89494C290BAFAC00483145 /* ADHDClockNotificationAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADHDClockNotificationAppApp.swift; sourceTree = "<group>"; };
 		5D89494E290BAFAC00483145 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -72,18 +144,44 @@
 		5DAD088C291C62C90085E189 /* AnimatedFontSyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedFontSyles.swift; sourceTree = "<group>"; };
 		5DAD088E291C67E60085E189 /* NotesVerticalScroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesVerticalScroll.swift; sourceTree = "<group>"; };
 		5DAD0892291C73700085E189 /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
+		5DB24E89291E0353004B7A8A /* signIntoAppleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signIntoAppleButton.swift; sourceTree = "<group>"; };
+		5DB24E8C291E8653004B7A8A /* TaskRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRow.swift; sourceTree = "<group>"; };
+		5DB24E8E291E91C2004B7A8A /* TaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskView.swift; sourceTree = "<group>"; };
+		5DB63942291DCB03006F0AA2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		5DC8B1BD290C59E100B68375 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		5DC8B1BF290C727400B68375 /* ToggleFlashStrobeLightNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleFlashStrobeLightNotification.swift; sourceTree = "<group>"; };
 		5DC8B1C1290C73BA00B68375 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		5DC8B1C2290C7C4100B68375 /* CubeRotationAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CubeRotationAnimation.swift; sourceTree = "<group>"; };
 		5DC8B1C4290C890D00B68375 /* RotatingCube.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatingCube.swift; sourceTree = "<group>"; };
+		5DE5CBAE29289EF400A0C65F /* MultipleColorButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleColorButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		5D170AAB29296D0500286051 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D52AB9729297E10007CFECE /* AuthenticationServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D52AB9D292984BE007CFECE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D52ABA2292984BF007CFECE /* CryptoTokenKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5D894946290BAFAC00483145 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DB63941291DC8AD006F0AA2 /* FirebaseFirestoreSwift in Frameworks */,
+				5DB6393D291DC8AD006F0AA2 /* FirebaseDatabaseSwift in Frameworks */,
+				5DB6393F291DC8AD006F0AA2 /* FirebaseFirestore in Frameworks */,
+				5DB6393B291DC8AD006F0AA2 /* FirebaseDatabase in Frameworks */,
+				5DB63939291DC8AD006F0AA2 /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,12 +202,63 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5D0F2BB2291F660D00543B3A /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				5D0F2BB3291F664D00543B3A /* Mega Man II_ Dr. Wily's Stage 1 Sheet Music.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		5D170AAF29296D0600286051 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D52AB9A29298449007CFECE /* alexander.developerprofile */,
+				5D170AB029296D0600286051 /* AuthenticationServices.framework */,
+				5D52ABA1292984BF007CFECE /* CryptoTokenKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5D170AB229296D0800286051 /* alexanderaspman.nu.ADHDClockNotificationApp */ = {
+			isa = PBXGroup;
+			children = (
+				5D170AB329296D0800286051 /* AccountAuthenticationModificationViewController.swift */,
+				5D170AB529296D0800286051 /* MainInterface.storyboard */,
+				5D170AB829296D0800286051 /* Info.plist */,
+			);
+			path = alexanderaspman.nu.ADHDClockNotificationApp;
+			sourceTree = "<group>";
+		};
+		5D52ABA3292984BF007CFECE /* github.tokens */ = {
+			isa = PBXGroup;
+			children = (
+				5D52ABA4292984BF007CFECE /* Token.swift */,
+				5D52ABA6292984BF007CFECE /* TokenDriver.swift */,
+				5D52ABA8292984BF007CFECE /* TokenSession.swift */,
+				5D52ABAA292984BF007CFECE /* Info.plist */,
+			);
+			path = github.tokens;
+			sourceTree = "<group>";
+		};
+		5D67F3E529287D53004C14E1 /* forebaseLogin */ = {
+			isa = PBXGroup;
+			children = (
+				5D67F3E629287DE7004C14E1 /* FirebaseLogin.swift */,
+				5DE5CBAE29289EF400A0C65F /* MultipleColorButton.swift */,
+			);
+			path = forebaseLogin;
+			sourceTree = "<group>";
+		};
 		5D894940290BAFAC00483145 = {
 			isa = PBXGroup;
 			children = (
 				5D89494B290BAFAC00483145 /* ADHDClockNotificationApp */,
 				5D89495C290BAFB300483145 /* ADHDClockNotificationAppTests */,
 				5D894966290BAFB300483145 /* ADHDClockNotificationAppUITests */,
+				5D170AB229296D0800286051 /* alexanderaspman.nu.ADHDClockNotificationApp */,
+				5D52ABA3292984BF007CFECE /* github.tokens */,
+				5D170AAF29296D0600286051 /* Frameworks */,
 				5D89494A290BAFAC00483145 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -120,6 +269,8 @@
 				5D894949290BAFAC00483145 /* ADHDClockNotificationApp.app */,
 				5D894959290BAFB300483145 /* ADHDClockNotificationAppTests.xctest */,
 				5D894963290BAFB300483145 /* ADHDClockNotificationAppUITests.xctest */,
+				5D170AAE29296D0500286051 /* alexanderaspman.nu.ADHDClockNotificationApp.appex */,
+				5D52ABA0292984BE007CFECE /* github.tokens.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -127,6 +278,9 @@
 		5D89494B290BAFAC00483145 /* ADHDClockNotificationApp */ = {
 			isa = PBXGroup;
 			children = (
+				5D67F3E529287D53004C14E1 /* forebaseLogin */,
+				5D0F2BB2291F660D00543B3A /* Sounds */,
+				5DB24E8B291E8614004B7A8A /* Modifiers */,
 				5DAD0891291C73530085E189 /* Navigation */,
 				5DAD0890291C68100085E189 /* Components */,
 				5DAD088B291C62950085E189 /* styles */,
@@ -134,6 +288,7 @@
 				5DC8B1BC290C59C600B68375 /* View */,
 				5D89494C290BAFAC00483145 /* ADHDClockNotificationAppApp.swift */,
 				5D89494E290BAFAC00483145 /* ContentView.swift */,
+				5DB63942291DCB03006F0AA2 /* GoogleService-Info.plist */,
 				5D894950290BAFB200483145 /* Assets.xcassets */,
 				5D894952290BAFB200483145 /* Preview Content */,
 				5D894976290BB0C600483145 /* TimeLeftVisual.swift */,
@@ -179,6 +334,10 @@
 		5DAD0890291C68100085E189 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				5DB24E8C291E8653004B7A8A /* TaskRow.swift */,
+				5DB24E8E291E91C2004B7A8A /* TaskView.swift */,
+				5D67F3E129260A81004C14E1 /* AddTaskRow.swift */,
+				5D67F3E32926825B004C14E1 /* taskToCloudManager.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -191,9 +350,18 @@
 			path = Navigation;
 			sourceTree = "<group>";
 		};
+		5DB24E8B291E8614004B7A8A /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				5D0F2BB5291F678200543B3A /* TimerSoundModifier.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
 		5DC8B1BC290C59C600B68375 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				5D0CE961292316630015D35A /* TabBar.swift */,
 				5DC8B1BD290C59E100B68375 /* SwiftUIView.swift */,
 				5DC8B1C2290C7C4100B68375 /* CubeRotationAnimation.swift */,
 				5DC8B1C4290C890D00B68375 /* RotatingCube.swift */,
@@ -205,6 +373,7 @@
 				5DA3816929198965002B99FF /* SignUpView.swift */,
 				5DA3816B2919A52A002B99FF /* LoginView.swift */,
 				5DAD088E291C67E60085E189 /* NotesVerticalScroll.swift */,
+				5DB24E89291E0353004B7A8A /* signIntoAppleButton.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -212,6 +381,40 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		5D170AAD29296D0500286051 /* alexanderaspman.nu.ADHDClockNotificationApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D170ABF29296D0900286051 /* Build configuration list for PBXNativeTarget "alexanderaspman.nu.ADHDClockNotificationApp" */;
+			buildPhases = (
+				5D170AAA29296D0500286051 /* Sources */,
+				5D170AAB29296D0500286051 /* Frameworks */,
+				5D170AAC29296D0500286051 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = alexanderaspman.nu.ADHDClockNotificationApp;
+			productName = alexanderaspman.nu.ADHDClockNotificationApp;
+			productReference = 5D170AAE29296D0500286051 /* alexanderaspman.nu.ADHDClockNotificationApp.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		5D52AB9F292984BE007CFECE /* github.tokens */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D52ABAE292984C0007CFECE /* Build configuration list for PBXNativeTarget "github.tokens" */;
+			buildPhases = (
+				5D52AB9C292984BE007CFECE /* Sources */,
+				5D52AB9D292984BE007CFECE /* Frameworks */,
+				5D52AB9E292984BE007CFECE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = github.tokens;
+			productName = github.tokens;
+			productReference = 5D52ABA0292984BE007CFECE /* github.tokens.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		5D894948290BAFAC00483145 /* ADHDClockNotificationApp */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5D89496D290BAFB300483145 /* Build configuration list for PBXNativeTarget "ADHDClockNotificationApp" */;
@@ -219,12 +422,22 @@
 				5D894945290BAFAC00483145 /* Sources */,
 				5D894946290BAFAC00483145 /* Frameworks */,
 				5D894947290BAFAC00483145 /* Resources */,
+				5D170ABC29296D0900286051 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				5D170ABA29296D0800286051 /* PBXTargetDependency */,
+				5D52ABAC292984BF007CFECE /* PBXTargetDependency */,
 			);
 			name = ADHDClockNotificationApp;
+			packageProductDependencies = (
+				5DB63938291DC8AD006F0AA2 /* FirebaseAuth */,
+				5DB6393A291DC8AD006F0AA2 /* FirebaseDatabase */,
+				5DB6393C291DC8AD006F0AA2 /* FirebaseDatabaseSwift */,
+				5DB6393E291DC8AD006F0AA2 /* FirebaseFirestore */,
+				5DB63940291DC8AD006F0AA2 /* FirebaseFirestoreSwift */,
+			);
 			productName = ADHDClockNotificationApp;
 			productReference = 5D894949290BAFAC00483145 /* ADHDClockNotificationApp.app */;
 			productType = "com.apple.product-type.application";
@@ -272,9 +485,15 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1400;
+				LastSwiftUpdateCheck = 1410;
 				LastUpgradeCheck = 1400;
 				TargetAttributes = {
+					5D170AAD29296D0500286051 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					5D52AB9F292984BE007CFECE = {
+						CreatedOnToolsVersion = 14.1;
+					};
 					5D894948290BAFAC00483145 = {
 						CreatedOnToolsVersion = 14.0.1;
 					};
@@ -297,6 +516,9 @@
 				Base,
 			);
 			mainGroup = 5D894940290BAFAC00483145;
+			packageReferences = (
+				5DB63937291DC8AC006F0AA2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 5D89494A290BAFAC00483145 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -304,16 +526,35 @@
 				5D894948290BAFAC00483145 /* ADHDClockNotificationApp */,
 				5D894958290BAFB300483145 /* ADHDClockNotificationAppTests */,
 				5D894962290BAFB300483145 /* ADHDClockNotificationAppUITests */,
+				5D170AAD29296D0500286051 /* alexanderaspman.nu.ADHDClockNotificationApp */,
+				5D52AB9F292984BE007CFECE /* github.tokens */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		5D170AAC29296D0500286051 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D170AB729296D0800286051 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D52AB9E292984BE007CFECE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5D894947290BAFAC00483145 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				5D894954290BAFB200483145 /* Preview Assets.xcassets in Resources */,
+				5DB63943291DCB03006F0AA2 /* GoogleService-Info.plist in Resources */,
+				5D0F2BB4291F664E00543B3A /* Mega Man II_ Dr. Wily's Stage 1 Sheet Music.mp3 in Resources */,
 				5D894951290BAFB200483145 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -335,12 +576,31 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		5D170AAA29296D0500286051 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D170AB429296D0800286051 /* AccountAuthenticationModificationViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D52AB9C292984BE007CFECE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D52ABA9292984BF007CFECE /* TokenSession.swift in Sources */,
+				5D52ABA5292984BF007CFECE /* Token.swift in Sources */,
+				5D52ABA7292984BF007CFECE /* TokenDriver.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5D894945290BAFAC00483145 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				5D894977290BB0C600483145 /* TimeLeftVisual.swift in Sources */,
 				5D89494F290BAFAC00483145 /* ContentView.swift in Sources */,
+				5DB24E8A291E0353004B7A8A /* signIntoAppleButton.swift in Sources */,
 				5D8D59CF2911665400985152 /* NoteList.swift in Sources */,
 				5DA3816C2919A52A002B99FF /* LoginView.swift in Sources */,
 				5D8D59D32911A9A600985152 /* Home.swift in Sources */,
@@ -350,13 +610,21 @@
 				5D8D59D52911AAC000985152 /* AccountAvatarView.swift in Sources */,
 				5D64D5E92914770D0093CD8B /* AvatarUserView.swift in Sources */,
 				5DC8B1C0290C727500B68375 /* ToggleFlashStrobeLightNotification.swift in Sources */,
+				5D0F2BB6291F678200543B3A /* TimerSoundModifier.swift in Sources */,
 				5D8D59D1291185E600985152 /* MenuView.swift in Sources */,
 				5D89494D290BAFAC00483145 /* ADHDClockNotificationAppApp.swift in Sources */,
+				5DE5CBAF29289EF400A0C65F /* MultipleColorButton.swift in Sources */,
+				5D67F3E229260A81004C14E1 /* AddTaskRow.swift in Sources */,
 				5DA3816A29198965002B99FF /* SignUpView.swift in Sources */,
+				5DB24E8F291E91C2004B7A8A /* TaskView.swift in Sources */,
+				5D67F3E42926825B004C14E1 /* taskToCloudManager.swift in Sources */,
+				5DB24E8D291E8653004B7A8A /* TaskRow.swift in Sources */,
 				5DAD088D291C62C90085E189 /* AnimatedFontSyles.swift in Sources */,
 				5DC8B1C3290C7C4100B68375 /* CubeRotationAnimation.swift in Sources */,
+				5D67F3E729287DE7004C14E1 /* FirebaseLogin.swift in Sources */,
 				5DC8B1C5290C890E00B68375 /* RotatingCube.swift in Sources */,
 				5D8D59CD291098CD00985152 /* ClockControllerView.swift in Sources */,
+				5D0CE962292316640015D35A /* TabBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,6 +648,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		5D170ABA29296D0800286051 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D170AAD29296D0500286051 /* alexanderaspman.nu.ADHDClockNotificationApp */;
+			targetProxy = 5D170AB929296D0800286051 /* PBXContainerItemProxy */;
+		};
+		5D52ABAC292984BF007CFECE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D52AB9F292984BE007CFECE /* github.tokens */;
+			targetProxy = 5D52ABAB292984BF007CFECE /* PBXContainerItemProxy */;
+		};
 		5D89495B290BAFB300483145 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 5D894948290BAFAC00483145 /* ADHDClockNotificationApp */;
@@ -392,7 +670,130 @@
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		5D170AB529296D0800286051 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D170AB629296D0800286051 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+		5D52AB9A29298449007CFECE /* alexander.developerprofile */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D52AB9B29298449007CFECE /* Base */,
+			);
+			name = alexander.developerprofile;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
+		5D170ABD29296D0900286051 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = alexanderaspman.nu.ADHDClockNotificationApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = alexanderaspman.nu.ADHDClockNotificationApp;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alexanderaspman.nu.ADHDClockNotificationApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5D170ABE29296D0900286051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3V6VBR765T;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = alexanderaspman.nu.ADHDClockNotificationApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = alexanderaspman.nu.ADHDClockNotificationApp;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alexanderaspman.nu.ADHDClockNotificationApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5D52ABAF292984C0007CFECE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3V6VBR765T;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = github.tokens/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = github.tokens;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "alexanderaspman.nu.ADHDClockNotificationApp.github-tokens";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5D52ABB0292984C0007CFECE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3V6VBR765T;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = github.tokens/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = github.tokens;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "alexanderaspman.nu.ADHDClockNotificationApp.github-tokens";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		5D89496B290BAFB300483145 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -510,6 +911,7 @@
 		5D89496E290BAFB300483145 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -540,6 +942,7 @@
 		5D89496F290BAFB300483145 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -572,6 +975,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3V6VBR765T;
@@ -592,6 +996,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3V6VBR765T;
@@ -646,6 +1051,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		5D170ABF29296D0900286051 /* Build configuration list for PBXNativeTarget "alexanderaspman.nu.ADHDClockNotificationApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D170ABD29296D0900286051 /* Debug */,
+				5D170ABE29296D0900286051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D52ABAE292984C0007CFECE /* Build configuration list for PBXNativeTarget "github.tokens" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D52ABAF292984C0007CFECE /* Debug */,
+				5D52ABB0292984C0007CFECE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		5D894944290BAFAC00483145 /* Build configuration list for PBXProject "ADHDClockNotificationApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -683,6 +1106,45 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5DB63937291DC8AC006F0AA2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5DB63938291DC8AD006F0AA2 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5DB63937291DC8AC006F0AA2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		5DB6393A291DC8AD006F0AA2 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5DB63937291DC8AC006F0AA2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		5DB6393C291DC8AD006F0AA2 /* FirebaseDatabaseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5DB63937291DC8AC006F0AA2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabaseSwift;
+		};
+		5DB6393E291DC8AD006F0AA2 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5DB63937291DC8AC006F0AA2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		5DB63940291DC8AD006F0AA2 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5DB63937291DC8AC006F0AA2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5D894941290BAFAC00483145 /* Project object */;
 }

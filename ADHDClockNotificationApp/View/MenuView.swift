@@ -11,10 +11,13 @@ import SwiftUI
 
 
 struct MenuView: View {
+    @State var userName:String="Fackdis"
     @State var title :String
     var bgColor:CGColor = #colorLiteral(red: 0.7566142756, green: 0.4727536811, blue: 0.4809653167, alpha: 1)
     
     var body: some View {
+        
+        HStack(spacing:16){
         ZStack{
             
             
@@ -27,7 +30,16 @@ struct MenuView: View {
             VStack {
                 
                 VStack(spacing: 20) {
-                    AccountAvatarView( avatar: true).padding(.top,30)
+                    
+                    HStack{
+                        Image(systemName: "person.circle").animatableFonts(size: 49, weight: .bold, design: .rounded).overlay(content: {Circle().opacity(0.1)})
+                        Spacer()
+                        VStack{
+                            Text("Nick: \(userName)").animatableFonts(size: 29, weight: .bold, design: .rounded)
+                        }
+                        Spacer()
+                    }.frame(width: .infinity,height: 30,alignment: .topLeading).padding(.top,-30)
+                 //   AccountAvatarView( avatar: true).padding(.top,30)
                     
                     VStack( spacing:16){
                         MenuRow(toggleOn: true, title: "Back",icon: "gear")
@@ -37,7 +49,7 @@ struct MenuView: View {
                         MenuRow(toggleOn:true, title: "Your notes",icon:"note")
                         
                         MenuRow(toggleOn:true, title: "Timer", icon: "timer.square")
-                    }
+                    }.padding(.top,30)
                     
                 }.frame(alignment:Alignment(horizontal: .center, vertical: .bottom))
                 
@@ -46,10 +58,10 @@ struct MenuView: View {
             
             .padding(20)
             Spacer()
-        }.frame(maxWidth:.infinity).frame(height:300).clipShape(RoundedRectangle(cornerRadius: 30, style: .continuous)).shadow(radius:30).padding(.horizontal,30).frame(alignment:Alignment(horizontal: .center, vertical: .bottom)).padding()
+        }.frame(maxWidth:.infinity).frame(height:350).clipShape(RoundedRectangle(cornerRadius: 30, style: .continuous)).shadow(radius:30).padding(.horizontal,30).frame(alignment:Alignment(horizontal: .center, vertical: .bottom)).padding()
         
         
-    }
+    }}
     
 }
     

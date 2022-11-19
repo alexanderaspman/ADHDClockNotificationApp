@@ -12,20 +12,26 @@ import SwiftUI
 struct TimeLeftVisual: View {
     
     
-    
     var color1 = #colorLiteral(red: 0.9612575173, green: 0.2538030238, blue: 0.236307254, alpha: 1)
     var color2 = #colorLiteral(red: 0.9612575173, green: 0.0508318432, blue: 0.1304445198, alpha: 1)
     var color3 = #colorLiteral(red: 0.527324638, green: 0.02788522621, blue: 0.0715589818, alpha: 1)
     var color5 = [#colorLiteral(red: 0.09236055057, green: 0.2719038442, blue: 0.527324638, alpha: 1), #colorLiteral(red: 0.1148044535, green: 0.3379773296, blue: 0.655466176, alpha: 1)]
     var width : CGFloat = 200
     var height : CGFloat = 200
-  var percent:CGFloat = 22
+  var percent:CGFloat = 40
   // var decimalProcent: Double
 
     @Binding var startShow : Bool
-   
+    @State var startTimer : Bool = false
 
-var body: some View {
+  /*  func StartTimer(startTimer:Bool){
+        self.startTimer=true
+        for i in StartTimerSequens{
+            
+        }
+        
+    }*/
+    var body: some View {
    
     
     
@@ -70,19 +76,49 @@ var body: some View {
             }
          
                 
-            Text("\(Int(remainingMinutes)) minutes left").padding(8) .background(.secondary).cornerRadius(10).foregroundColor(.white).bold().font(.system(size:29,design:.rounded)).frame(width:  170,height:200 ).position(x:200,y: 600).onTapGesture {self.startShow.toggle()}}
+            Text("\(Int(remainingMinutes)) minutes left").padding(8) .background(Color(.secondaryLabel)).cornerRadius(10).foregroundColor(.white).bold().font(.system(size:29,design:.rounded)).frame(width:  170,height:200 ).position(x:200,y: 600).onTapGesture {self.startShow.toggle()}}
     }
     
 }
     
-    
 
+
+
+/*class StartTimerSequens(Sequence:struct TimeLeftVisual{percent:
+$percent    }) {
+    func path(in rect: CGRect) -> Path {
+        Path { path in
+            path.addEllipse(in: rect)
+        }
+    }
+}
+   
     
+var minutes : Date.minute  = 60
+    
+  Published  var secundes : Date{
+        didSet{
+            self.second(T##Foundation.Date.FormatStyle.Symbol.Second) = +(time: startTimer, seconds: 3600)
+        }
+    }
+    
+    var setTime  : Int = 3600
+    var rectangleTime = 3600
+    var timeLeft : Int = 0
+    var timerIsActive : Bool
+    
+    
+}
+}
+
+    */
     
 
 struct TimeLeftVisual_Previews: PreviewProvider {
     static var previews: some View {
-        TimeLeftVisual( startShow: .constant(true))
-    }
-}
+        TimeLeftVisual(
+        startShow: .constant(true))
+//            data: .constant("MegaManKeyNote"),
+                    
+    }}
 
